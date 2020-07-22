@@ -1,0 +1,71 @@
+﻿@model ViewModel2
+@{
+    ViewData["Title"] = "Index";
+}
+
+<html>
+<body>
+
+
+<div id="route">
+    <ul>
+        <li>
+            <a>Esas Sehife</a>
+        </li>
+        <li>
+            <a>></a>
+        </li>
+        <li>
+            <a>Category</a>
+        </li>
+    </ul>
+</div>
+<div id="menu">
+    <div id="category">
+        <ul>
+            @foreach (var item in @Model.subCategories)
+            {
+
+            <li>
+                <a>@item.Name</a>
+            </li>
+            }
+          
+        </ul>
+        <ul>
+            <h1>Qiymet</h1>
+            <li>
+
+            </li>
+        </ul>
+
+        <ul>
+
+            <h1>Istehsalci</h1>
+            <li>
+                <a>Samsung</a>
+            </li>
+            <li>
+                <a>Xiaomi</a>
+            </li>
+            <li>
+                <a>Apple</a>
+            </li>
+        </ul>
+        <button>Axtar</button>
+    </div>
+    <div id="product">
+        @foreach (var item in @Model.products)
+        {
+
+        <div>
+            <h1>@item.Name<h1>
+        </div>
+        }
+
+
+
+    </div>
+</div>
+    </body>
+</html>

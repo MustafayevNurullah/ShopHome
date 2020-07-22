@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/CategoryStyle.css"    >
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <section id="top_menu">
+            <div class="container">
+                <div id="leftmenu">
+
+                    <ul>
+                        <li>
+                            <a>
+                                Kampaniyalar
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Magazalar
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Servisler
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Tez-tez verilen suallar
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div id="rightmenu">
+                    <ul>
+                        <li>
+                            <a>
+                                Ayliq odenis
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Watchlist
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Compare
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                *6060
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="bottom_menu">
+            <div class="container">
+                <section id="a">
+                    <div id="Name">
+                        <a>Shop Home</a>
+                    </div>
+
+                    <div id="search">
+                        <input type="text" placeholder="Search..">
+                    </div>
+                    <div id="daxil">
+                        <ul>
+                            <li>
+                                <a>Daxil Ol</a>
+                            </li>
+                            <li>
+                                <a>Sebet</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+
+        @RenderBody()
+        </section>
+    </main>
+    <footer>
+        <section class="container">
+            <div id="footer_right">
+                <ul>
+                    <p>Informasiya</p>
+                    <li>
+                        <a>Karyera</a>
+                    </li>
+                    <li>
+                        <a>Konfidensialliq siyaseti</a>
+                    </li>
+                    <li>
+                        <a>Sirket haqqinda</a>
+                    </li>
+                    <li>
+                        <a>Hisse hisse odenis sertleri</a>
+                    </li>
+                </ul>
+                <ul>
+                    <p>Musteriler</p>
+                    <li>
+                        <a>Saytinin istifade sertleri</a>
+                    </li>
+                    <li>
+                        <a>Kondifisienalliq siyaseti</a>
+                    </li>
+                </ul>
+                <ul>
+                    <p>Sirket</p>
+                    <li>
+                        <a>Sirket haqqinda</a>
+                    </li>
+                    <li>
+                        <a>Karyera</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer_left">
+                <ul>
+                    <p>ELaqe</p>
+                    <li>
+                        <a>*6060</a>
+                    <li>
+                    <li>
+                        <a>Magazalarmiz xeritede</a>
+                    <li>
+                </ul>
+                <ul>
+                    <p>Bizimle qalin</p>
+                    <li>
+                        <a>
+                            FB
+                        </a>
+                        <a>
+                            Instagram
+                        </a>
+                        <a>
+                            Youtube
+                        </a>
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+
+                        <a>Visa</a>
+                    </li>
+                    <li>
+
+                        <a>Master</a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+    </footer>
+</body>
+</html>
